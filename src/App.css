@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+/* RESET SEDERHANA */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* GOOGLE FONT */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&family=Source+Sans+Pro:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+/* AKHIR GOOGLE FONT */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* NAVBAR */
+header {
   display: flex;
-  flex-direction: column;
+  background-color: #3bacb6;
+  padding: 1.5rem;
+}
+
+nav {
+  display: flex;
+  padding-left: 2rem;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+nav .Todo-List {
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav a {
+  text-decoration: none;
+  color: #fffbe9;
+  transition: 0.3s all;
 }
+
+nav a:hover {
+  color: #787a91;
+}
+
+nav ul {
+  display: flex;
+  padding-left: 3rem;
+  align-items: center;
+}
+
+ul li {
+  list-style: none;
+}
+
+li a {
+  font-weight: 900;
+  font-family: 'Roboto', sans-serif;
+}
+/* AKHIR NAVBAR */

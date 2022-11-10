@@ -1,0 +1,45 @@
+.todo-list {
+  width: 800px;
+  margin: 50px auto;
+  padding: 1.5rem;
+  border: 1px solid black;
+  border-radius: 20px;
+  text-align: center;
+  background-color: #dbdffd;
+}
+
+span {
+  color: #3bacb6;
+}
+
+.trash-icon {
+  color: #fa1e0e;
+  transition: 0.3s;
+}
+
+.trash-icon:hover {
+  cursor: pointer;
+  color: #bd2000;
+}
+
+.edit-icon {
+  color: #f9b208;
+  margin-left: 10px;
+  transition: 0.3s;
+}
+
+.edit-icon:hover {
+  color: #fc5404;
+  cursor: pointer;
+}
+
+.close {
+  font-size: 25px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.5s all;
+}
+
+.close:hover {
+  color: #fc5404;
+}
